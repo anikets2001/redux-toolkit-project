@@ -1,1 +1,17 @@
-# redux-toolkit-project
+Q.What was the problem ?
+Whenever we want to transfer the data from one components to another let's say from one grand-parent to grand child we have to pass it through many in between components 
+this is called prop-drilling. The major problem with prop drilling is that we have to pass the data through many components which is not the ideal case for security reason
+
+To solve this problem we have many approached :
+1.contextApi 
+2.redux
+3.Redux-toolkit
+
+Q. Terminologies in redux-toolkit
+1.Store: It is the single source of truth, it contains all the states and data inside it.
+2.reducer: This is the place where all the logics are written.
+3.useSelector: reducers cannot directly communicate to the store for that reason useSelector hook is used as a mediator. It is used along with the reducers to update information in the store.
+
+
+react-redux is used to wired the redux and react thing together.
+
